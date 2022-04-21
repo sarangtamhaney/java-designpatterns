@@ -1,4 +1,4 @@
-package com.srp.test;
+package com;
 
 import com.google.common.util.concurrent.Uninterruptibles;
 import org.openqa.selenium.WebDriver;

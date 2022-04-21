@@ -2,7 +2,7 @@ package com.srp.test.srp;
 
 import com.srp.main.GoogleMainPage;
 import com.srp.result.GoogleResultPage;
-import com.srp.test.BaseTest;
+import com.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
