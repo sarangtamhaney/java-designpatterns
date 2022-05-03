@@ -24,5 +24,18 @@ Examples:
 - Different search methods
 
 ### Command pattern
+
 Encapsulate a request/command to be executed as an Object, pass it to Invoker. The Invoker executes the command.
-To achieve decoupling between sender and receiver
+To achieve decoupling between sender and receiver.
+
+Examples:
+- Remote Control (same switch used to turn on different appliances)
+
+### Template pattern
+
+A skeleton of algorithm is defined in parent class and child classes needs to implement the steps. This is a special case of Factory pattern.
+
+Examples:
+- To buy a product from different sites (Algo is same, steps are different)
+
+
