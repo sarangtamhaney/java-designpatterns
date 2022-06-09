@@ -38,4 +38,9 @@ A skeleton of algorithm is defined in parent class and child classes needs to im
 Examples:
 - To buy a product from different sites (Algo is same, steps are different)
 
+### Proxy pattern
 
+Provide a placeholder object instead of actual object to restrict access
+
+Examples:
+- Running test cases on different environments and restricting actions e.g. DB manipulation in PROD or STG.
