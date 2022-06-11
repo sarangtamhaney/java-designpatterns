@@ -44,3 +44,19 @@ Provide a placeholder object instead of actual object to restrict access
 
 Examples:
 - Running test cases on different environments and restricting actions e.g. DB manipulation in PROD or STG.
+
+### Execute Around pattern
+
+Provide some actions to be executed before and after the method call.
+
+Examples:
+- Frame/Window switch
+- Taking screenshots
+- Logging
+
+### Decorator pattern
+
+To add additional behaviors to an object dynamically
+
+Examples:
+- Role based display of UI components.(Some components are visible to Admin only)
